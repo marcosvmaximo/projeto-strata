@@ -1,0 +1,58 @@
+/* Elementos */
+
+.element-text p code {
+  background: rgb(239, 233, 204);
+  padding: 0.2rem 0.6rem;
+  border: 1px solid rgb(222, 216, 184);
+  border-radius: 5px;
+}
+
+.element-text h1 {
+  font-size: 2rem;
+}
+
+.quote {
+  background: rgb(239, 233, 204);
+  border-left: 5px solid rgb(222, 216, 184);
+  max-width: 350px;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+}
+
+.quote p {
+  margin: 10px;
+}
+
+/* Texts */
+
+.texts {
+  margin: 5rem 0;
+}
+
+.text-img {
+  text-align: center;
+}
+
+.text-img::after {
+  content: "";
+  display: block;
+  width: 20%px;
+  height: 5px;
+  background-color: var(--color-text-header);
+  margin: 0 auto;
+  margin-top: 0.75rem;
+  border-radius: 5px;
+}
+
+.texts p {
+  line-height: 1.7rem;
+}
+.texts p span {
+  font-size: 3rem;
+}
+
+@media (max-width: 850px) {
+    body {
+        font-size: 1rem;
+    }
+}

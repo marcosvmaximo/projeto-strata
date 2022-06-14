@@ -1,0 +1,45 @@
+/* Galeria */
+
+.galeria-work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 90%;
+}
+
+figcaption {
+    padding: 10px 0;
+}
+
+.galeria-item img {
+    width: 100%;
+}
+@media (max-width: 850px) {
+    .galeria-work {
+        grid-template-columns: 1fr;
+    }
+}
+/* galeria 2 */
+
+.galeria img {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.galeria-container {
+  max-width: 90%;
+}
+
+.galeria-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.galeria-sidebar div {
+  flex: 1 1 300px;
+}
+
+.galeria-sidebar div img {
+  width: 100%;
+}

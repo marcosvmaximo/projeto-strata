@@ -1,0 +1,14 @@
+@import url(./reset.css);
+@import url(./presets.css);
+
+
+@import url(./header.css);
+@import url(./botoes.css);
+@import url(./textos.css);
+
+
+@import url(./galeria.css);
+@import url(./fomulario.css);
+@import url(./listas.css);
+@import url(./tabelas.css);
+

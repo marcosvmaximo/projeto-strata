@@ -1,0 +1,49 @@
+/* Preformatado */
+
+pre {
+    background: rgb(239, 233, 204);
+    border: 1px solid rgb(222, 216, 184);
+    border-radius: 5px;
+    max-width: 90%;
+    padding: 15px 0;
+  }
+  
+/* Listas */
+
+.list {
+    display: grid;
+    grid: 1fr 1fr / repeat(2, minmax(200px, 1fr));
+    grid-auto-flow: column;
+    max-width: 90%;
+  }
+  
+  .list-item {
+    flex: 1 1 400px;
+    max-width: 400px;
+  }
+  
+  .list-item ul li,
+  .list-item ol {
+    list-style-position: inside;
+  }
+  
+  .list-item:nth-child(1) ul {
+    list-style: initial;
+  }
+  
+  .list .alternate ul li + li {
+    border-top: 1px solid rgb(222, 216, 184);
+  }
+
+  .icons img {
+    box-shadow: none;
+    margin-left: 5px;
+  }
+
+  
+  @media (max-width: 750px) {
+    .list {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+  }

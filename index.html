@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Strata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-grid">
+        <!-- Header horizontal-->
+        <header class="header">
+            <div class="header-fixed">
+                <div class="perfil">
+                    <img src="./img/avatar.jpg" width="123" height="123" alt="Homem de costas">
+                    <div>
+                        <h1>Trabalhos e groselhas de <span>Daniel Tapias Morales,</span> um zé ninguém qualquer</h1>
+                        <p>Retirado de <abbr title="curso da udemy">htmlSup.net</abbr></p>
+                    </div>
+                </div>
+                <footer class="header-footer">
+                    <div>
+                        <img src="./icons/facebook-svgrepo-com.svg" alt="Facebook" width="30" height="30">
+                        <img src="./icons/twitter-svgrepo-com.svg" alt="twitter" width="30" height="30">
+                    </div>
+                    <p><small>&copy; Untitled | Design: HTML5 UP</small></p>
+                </footer>
+            </div>
+        </header>
+
+        <!-- Conteudo Principal do site -->
+        <main class="content">
+
+            <!-- Cabeçalho do main-->
+            <section>
+                <h2 class="title">Quando o header é aside e o aside é no header</h2>
+                <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.
+                </p>
+                <a class="button-1" href="https://github.com/marcosvmaximo" target="_blank">Veja mais.</a>
+            </section>
+
+            <!-- Primeira seção - Galeria-->
+            <h2 class="title">Recent Works</h2>
+            <section class="galeria-work">
+                <figure class="galeria-item">
+                    <img src="./thumbs/01.jpg" alt="">
+                    <figcaption>Magna sed consequat tempus</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="./thumbs/04.jpg" alt="">
+                    <figcaption>Quam neque phasellus</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="./thumbs/02.jpg" width="370" height="217" alt="Sol em uma floresta">
+                    <figcaption>Ultricies lacinia interdum</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="./thumbs/05.jpg" width="370" height="217" alt="Linda paisagem com montanhas">
+                    <figcaption>Nunc enim commodo aliquet</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="./thumbs/03.jpg" width="370" height="217" alt="Grande biblioteca">
+                    <figcaption>Tortor metus commodo</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="./thumbs/06.jpg" width="370" height="217" alt="Cabana em uma floresta">
+                    <figcaption>Risus ornare lacinia</figcaption>
+                    <figcaption>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</figcaption>
+                </figure>
+                <a class="button-2" href="https://github.com/marcosvmaximo">Veja Portifolio Completo</a>
+            </section>
+
+            <!-- Seção de formulario -->
+            <section class="contact">
+                <h2 class="title">Get in Touch</h2>
+                <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                <div class="form-container">
+                    <form class="form" action="/#esse_formulario_funciona" method="get">
+                        <div class="form-item">
+                            <label for="name">Nome</label>
+                            <input class="input" type="text" name="name" id="name" required>
+                        </div>
+                        <div class="form-item">
+                            <label class="label email" for="email">Email</label>
+                            <input class="input" type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-item mensage-form">
+                            <label for="mensage">Digite sua mensagem.</label>
+                            <textarea class="input" id="mensage" name="mensage" rows="10" cols="50" maxlength="500" required spellcheck="true"></textarea>
+                        </div>
+                        <button class="button-1" type="submit" value="Enviar">Enviar</button>
+                    </form>
+
+                    <address class="adress">
+                        <p><span>Endereço:</span> 1234 Somewhere Rd Nashville, Tn 00000 United States</p>
+                        <p><span>Telefone:</span> <a href="https://github.com/marcosvmaximo">000-000-000</a></p>
+                        <p><span>E-mail:</span> <a href="https://github.com/marcosvmaximo">email@server.com</a></p>
+                    </address>
+                </div>
+            </section>
+
+            <!-- Seção mostrando os elementos-->
+            <section class="element">
+                <h2 class="title">Elements</h2>
+                <!-- Elementos de textos -->
+                <section class="element-text">
+                    <h3 class="title">Text</h3>
+                    <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. Finally, this is <a href="https://github.com/marcosvmaximo" target="_blank" title="O link é uma tag &lt;a&gt;">a link</a>.</p>
+                    <hgroup>
+                        <h1>titulo h1</h1>
+                        <h2>titulo h2</h2>
+                        <h3>titulo h3</h3>
+                        <h4>titulo h4</h4>
+                        <h5>titulo h5</h5>
+                        <h6>titulo h6</h6>
+                    </hgroup>
+                    <blockquote class="quote" cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                        <p>Esta é uma citação tirada da <cite><dfn title="Mozila Developer Center.">MDN.</dfn></cite></p>
+                        <p>outros paragráfos</p>
+                    </blockquote>
+                    <figcaption>According to Mozilla's website, <q>"Firefoz 1.0 was released in 2004 and became a big sucess."</q></figcaption>
+                </section>
+
+                <!-- Seção para demostrar a tag <pre>-->
+                <section class="preformat">
+                    <h3 class="title">Preformatado</h3>
+                    <pre>
+                        <code>
+    &lt;script&gt;
+        alert&#40;&#39;oi&#39;&#41;;
+    &lt;&#47;script&gt;</code>
+                    </pre>
+                </section>
+
+                <!-- Listas -->
+                <h3 class="title">Listas</h3>
+                <section class="list">
+                    <div class="list-item">
+                        <h3>Não ordenada</h3>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                    <div class="list-item">
+                        <h3>Ordenada</h3>
+                        <ol>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ol>
+                    </div>
+                    <div class="list-item alternate">
+                        <h3>Alternate</h3>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <h3>icons</h3>
+                        <img src="./icons/green.svg" alt="Facebook" width="30" height="30">
+                        <img src="./icons/twgreen.svg" alt="twitter" width="30" height="30">
+                    </div>
+                </section>
+
+                <!-- Botões -->
+                <section>
+                    <h3 class="title">Actions</h3>
+                    <div class="button-item">
+                        <a class="button-2" href="https://github.com/marcosvmaximo">Enviar</a>
+                        <a class="button-1" href="https://github.com/marcosvmaximo">Cancelar</a>
+                    </div>
+                    <div class="button-item">
+                        <a class="button-2" href="https://github.com/marcosvmaximo">Enviar</a>
+                        <a class="button-1" href="https://github.com/marcosvmaximo">Cancelar</a>
+                    </div>
+                </section>
+
+                <!-- Tabelas -->
+                <section>
+                    <h3 class="title">Tables</h3>
+                    <div class="table">
+                        <h4>Default</h4>
+                        <table>
+                            <thead class="thead">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+                                <tr>
+                                    <td>Item One</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td><sup>R$</sup>05,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Item Two</td>
+                                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                                    <td><sup>R$</sup>59,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Item Three</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td><sup>R$</sup>19,89</td>
+                                </tr>
+                                <tr>
+                                    <td>Item Four</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td><sup>R$</sup>40,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Item Five</td>
+                                    <td>Vitae integer tempus condimentum.</td>
+                                    <td><sup>R$</sup>49,99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table border">
+                        <h4>Alternate</h4>
+                        <table>
+                            <thead class="thead">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Age</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+                                <tr>
+                                    <td>Roberto</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>Jane</td>
+                                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                                    <td>31</td>
+                                </tr>
+                                <tr>
+                                    <td>Lay</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>Karol</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>Conny</td>
+                                    <td>Vitae integer tempus condimentum.</td>
+                                    <td>14</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <q class="dados" cite="Me sigam @marcosvmaximo">Dados de 2022 — Fonte: Brasil</q>
+                    </div>
+                </section>
+
+                <!-- Botoes de inputs -->
+                <section class="input-buttons">
+                    <h3 class="title">Buttons</h3>
+                    <ul>
+                        <li class="btn">
+                            <button class="button-2" type="button" value="Default">Default</button>
+                            <button class="button-1" type="button" value="Default">Default</button>
+                        </li>
+                        <li class="btn">
+                            <input type="radio" name="test" value="Default" id="btn-1"><label for="btn-1" class="button-1">Default</label>
+                            <input type="radio" name="test" value="Default" id="btn-2"><label for="btn-2" class="button-1">Default</label>
+                        </li>
+                        <li class="btn">
+                            <input type="checkbox" name="test" value="Default" id="btn-3"><label for="btn-3" class="button-1">Default</label>
+                            <input class="button-1" type="checkbox" name="test" value="Default" id="btn-4"><label for="btn-4" class="button-1">Default</label>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Formulario -->
+                <section class="form-2">
+                    <h3 class="title">Forms</h3>
+                    <form action="" method="get">
+
+                        <div class="form-item">
+                            <label for="name-2">Name</label>
+                            <input class="input" type="text" id="name-2" name="name-2" required>
+                        </div>
+
+                        <div class="division-container">
+                            <div class="form-item">
+                                <label for="email-2">Email</label>
+                                <input class="input" type="email" id="email-2" name="email-2" required>
+                            </div>
+
+                            <div class="form-item">
+                                <label for="tel-2">Telephone</label>
+                                <input class="input" type="tel" id="tel-2" name="tel-2" inputmode="numeric" required>
+                            </div>
+
+                            <div class="radio-container">
+                                <h4>Urgence:</h4>
+                                <div class="radio">
+                                    <input type="radio" name="urgence" id="high" value="high"><label for="high">High</label>
+                                    <input type="radio" name="urgence" id="medium" value="medium"><label for="medium">Medium</label>
+                                    <input type="radio" name="urgence" id="low" value="low" checked><label for="low">Low</label>
+                                </div>
+                            </div>
+
+                            <div class="form-item">
+                                <label for="options-country">Select your country</label>
+                                <select class="input" name="country" id="options-country" required>
+                                    <option value="brazil">Brasil</option>
+                                    <option value="usa">Estados Unidos</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="uk">Reino Unido</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-item">
+                            <fieldset class="field">
+                                <legend>Select at least 3 options</legend>
+                                <input type="checkbox" name="extra-info" id="dog" value="dog">
+                                <label for="dog">I'm have a dog</label>
+                                <input type="checkbox" name="extra-info" id="cat" value="cat">
+                                <label for="cat">I'm have a cat</label>
+                                <input type="checkbox" name="extra-info" id="dark" value="dark">
+                                <label for="dark">I'm afraid of the dark</label>
+                                <input type="checkbox" name="extra-info" id="friends" value="friends">
+                                <label for="friends">I have many friends</label>
+                                <input type="checkbox" name="extra-info" id="cooler" value="cooler">
+                                <label for="cooler">I have a fridge at home</label>
+                                <input type="checkbox" name="extra-info" id="bathroom" value="bathroom">
+                                <label for="bathroom">I have more than one bathroom</label>
+                                <input type="checkbox" name="extra-info" id="car" value="car">
+                                <label for="car">I have more than one car</label>
+                                <input type="checkbox" name="extra-info" id="apple" value="apple">
+                                <label for="apple">I like apple</label>
+                            </fieldset>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="searchs">What is your favorite website</label>
+                            <datalist id="searchs">
+                                <option value="Instagram"></option>
+                                <option value="Facebook"></option>
+                                <option value="Snapchat"></option>
+                                <option value="Tik tok"></option>
+                            </datalist>
+                            <input class="input" type="search" list="searchs" id="searchs" name="website" maxlength="16">
+                        </div>
+
+                        <div class="form-item">
+                            <label for="mensage-2">Mensage</label>
+                            <textarea class="input" name="mensage-2" id="mensage-2" cols="50" rows="5" required spellcheck="true"></textarea>
+                        </div>
+
+                        <div class="buttons">
+                            <button class="button-2" type="submit">Submit</button>
+                            <button class="button-1" type="reset">Reset</button>
+                        </div>
+                    </form>
+                </section>
+            </section>
+
+            <!-- Galeria -->
+            <section>
+                <div class="galeria">
+                    <h2>Imagens</h2>
+                    <img src="./fulls/01.jpg" width="740" height="434" alt="rua movimentada na europa">
+                </div>
+                <div class="galeria-container">
+                    <div class="galeria-sidebar">
+                        <div>
+                            <img src="./fulls/01.jpg" width="740" height="434" alt="rua movimentada na europa">
+                        </div>
+                        <div>
+                            <img src="./fulls/02.jpg" width="740" height="434" alt="Sol em uma paisagem com floresta">
+                        </div>
+                        <div>
+                            <img src="./fulls/03.jpg" width="740" height="434" alt="Grande biblioteca">
+                        </div>
+                        <div>
+                            <img src="./fulls/04.jpg" width="740" height="434" alt="Os pés de um homem subindo as escadas">
+                        </div>
+                        <div>
+                            <img src="./fulls/05.jpg" width="740" height="434" alt="Linda paisagem de montanhas">
+                        </div>
+                        <div>
+                            <img src="./fulls/06.jpg" width="740" height="434" alt="Cabana na floresta">
+                        </div>
+                        <div>
+                            <img src="./fulls/02.jpg" width="740" height="434" alt="Sol em uma paisagem com floresta">
+                        </div>
+                        <div>
+                            <img src="./fulls/04.jpg" width="740" height="434" alt="Os pés de um homem subindo as escadas">
+                        </div>
+                        <div>
+                            <img src="./fulls/03.jpg" width="740" height="434" alt="Grande biblioteca">
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Textos -->
+            <section class="texts">
+                <div class="text-img">
+                    <img src="./img/avatar.jpg" width="123" height="123" alt="homem de costa">
+                </div>
+                <p><span>L</span>orem ipsum dolor sit, amet consectetur adipisicing elit. Quod autem maiores illo qui perspiciatis vitae veniam reprehenderit tempore nisi repellendus atque, quam distinctio tenetur itaque odit dolorum aspernatur. Est, nam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore suscipit at deleniti eum rem quaerat reprehenderit eligendi nemo tenetur consequatur! Atque qui eius sint voluptatem odio. In tempora libero repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facilis veniam facere reprehenderit ducimus tempora repudiandae provident! Architecto quam rerum reiciendis illo minima laboriosam, sint aliquid consequuntur cumque, eaque quaerat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere fuga provident, et sequi quia accusamus vero ad, cum architecto, consequatur voluptatibus molestias ut. Voluptatibus eius quia repudiandae asperiores! Ad, necessitatibus?</p>
+
+                <div class="text-img">
+                    <img src="./img/avatar.jpg" width="123" height="123" alt="homem de costa">
+                </div>
+                <p><span>L</span>orem ipsum dolor sit, amet consectetur adipisicing elit. Quod autem maiores illo qui perspiciatis vitae veniam reprehenderit tempore nisi repellendus atque, quam distinctio tenetur itaque odit dolorum aspernatur. Est, nam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore suscipit at deleniti eum rem quaerat reprehenderit eligendi nemo tenetur consequatur! Atque qui eius sint voluptatem odio. In tempora libero repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facilis veniam facere reprehenderit ducimus tempora repudiandae provident! Architecto quam rerum reiciendis illo minima laboriosam, sint aliquid consequuntur cumque, eaque quaerat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere fuga provident, et sequi quia accusamus vero ad, cum architecto, consequatur voluptatibus molestias ut. Voluptatibus eius quia repudiandae asperiores! Ad, necessitatibus?</p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
